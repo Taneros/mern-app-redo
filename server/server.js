@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5050;
 
 app.get("/test", (req, res) => {
     res.json({
-        Hi: "Welcome to the MERN Library API",
+        Hi: "Welcome to the MERN TODO API",
     });
 } );
 
