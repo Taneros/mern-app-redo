@@ -45,8 +45,6 @@ services:
         ME_CONFIG_MONGODB_SERVER: mongodb
         ME_CONFIG_BASICAUTH_USERNAME: admin
         ME_CONFIG_BASICAUTH_PASSWORD: admin123456
-    volumes:
-        - mongodb-data
     networks:
         - todo-mern-api
 
