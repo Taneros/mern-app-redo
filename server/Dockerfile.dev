@@ -1,4 +1,4 @@
-FROM node:16.20.2-alpine
+FROM node:16.20.2-alpine3.18
 
 LABEL version="1.0"
 LABEL description="Development image for the TODO MERN API"
