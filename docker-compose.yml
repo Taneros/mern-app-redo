@@ -12,6 +12,7 @@ services:
         - ./server:/app
     ports:
       - 5050:5050
+      - 3030:5050
     depends_on:
       - mongodb
     environment:
